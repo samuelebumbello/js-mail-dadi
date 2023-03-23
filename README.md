@@ -20,5 +20,5 @@ Stabilire il vincitore, in base a chi fa il punteggio più alto.
 ### Gioco Dadi
 
 -   Creare 2 variabili che generano numeri random da 1 a 6
--
--
+-   Stabilire tramite una condizione che, chi ha il numero superiore vince.
+-   Stampare nel DOM

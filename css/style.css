@@ -1,0 +1,31 @@
+body{
+    background-color: rgb(36, 74, 92);
+}
+
+#errore{
+    color: rgb(167, 45, 45);
+}
+
+#confermato{
+    color: rgb(0, 182, 0);
+}
+
+#vittoria{
+    color: rgb(255, 187, 0);
+    font-weight: bold;
+}
+
+#pc{
+    color: rgb(252, 50, 157);
+    font-size: 80px;
+}
+
+#player{
+    color: rgb(252, 50, 157);
+    font-size: 80px;
+}
+
+#btn:active{
+    cursor: pointer;
+    background-color: brown;
+}

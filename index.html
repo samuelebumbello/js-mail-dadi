@@ -4,12 +4,41 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/style.css">
     <title>Mail</title>
 </head>
 <body>
-    
-    <h1 id="errore"></h1>
 
+    <header class="text-center pt-5 pb-5 text-white">
+        <h1 class="fw-bold" id="errore"></h1>
+        <h1 class="fw-bold" id="confermato"></h1>
+    </header>
+
+    <main>
+        <div class="row">
+
+            <div class="col-4">
+                <div class="fs-1 pt-4 text-center text-white fw-bolder">Giocatore</div>
+                <div id="player" class="text-center"></div>
+            </div>
+
+            <div class="col-4">
+                <div id="vittoria" class="text-center fs-1"></div>
+            </div>
+
+            <div class="col-4">
+                <div class="fs-1 pt-4 text-center text-white fw-bolder">Computer</div>
+                <div id="pc" class="text-center"></div>
+            </div>
+            
+            <div class="d-grid gap-2 col-3 mx-auto">
+                <button id="btn" class="btn btn-primary" type="button">Lancia i tuoi dadi</button>
+            </div>
+        </div>
+
+    </main>
 
     <script src="js/script.js"></script>
 </body>
