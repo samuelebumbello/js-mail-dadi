@@ -33,9 +33,8 @@ if(emailTrovata === 1){
     La tua mail che hai inserito è corretta! <br>
     Adesso potrai giocare!!
     `
-
-
-} else{
+}
+else{
     errore.innerHTML =`
     La tua email per accedere al gioco è sbagliata.
     ` 
@@ -56,8 +55,11 @@ btn.addEventListener('click', function(){
     if(playerPoints > pcPoints){
         vittoria.innerHTML = `Giocatore HAI VINTO!`;
     }
-    else{
+    else if(playerPoints < pcPoints){
         vittoria.innerHTML = `Pc HAI VINTO!`;
+    }
+    else{
+        vittoria.innerHTML = `PAREGGIO!`;
     }
     
 })
